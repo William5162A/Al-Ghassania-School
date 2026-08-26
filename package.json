@@ -1,0 +1,8 @@
+{
+    "name": "alghassania-school",
+    "private": true,
+    "workspaces": [
+      "apps/*",
+      "packages/*"
+    ]
+  }
