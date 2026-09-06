@@ -1,8 +1,9 @@
 export function HomePage() {
   return (
-    <main>
-      <h1>Alghassania School</h1>
-      <p>Frontend is running.</p>
+    <main className="flex min-h-screen items-center justify-center bg-background">
+      <h1 className="text-4xl font-bold text-foreground">
+        مدرسة الغسانية
+      </h1>
     </main>
   );
 }
