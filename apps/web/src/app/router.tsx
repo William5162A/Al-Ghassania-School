@@ -41,7 +41,7 @@ import { ComponentsPreviewPage } from "@/pages/ComponentsPreview/ComponentsPrevi
 export default function AppRouter() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<LoginPage />} />
 
       <Route path="/components-preview" element={<ComponentsPreviewPage />} />
 
