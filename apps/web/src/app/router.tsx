@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import { AppShell } from "@/layouts/AppShell";
 import { DashboardPage } from "@/pages/Dashboard/DashboardPage";
-import { HomePage } from "@/pages/HomePage";
+// import { HomePage } from "@/pages/HomePage";
 import { LoginPage } from "@/pages/Login/LoginPage";
 import NotFoundPage from "@/pages/NotFoundPage";
 import { SchoolsPage } from "@/pages/Schools/SchoolsPage";
