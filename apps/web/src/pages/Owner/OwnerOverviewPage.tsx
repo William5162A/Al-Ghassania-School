@@ -6,7 +6,7 @@ import { ActivityLog } from "./components/ActivityLog";
 export function OwnerOverviewPage() {
   const navigate = useNavigate();
 
-  return (
+  return (  
     <div className="space-y-6">
       <section className="relative overflow-hidden rounded-[var(--radius-xl)] bg-[var(--brand-navy)] p-6 text-white shadow-[var(--shadow-md)] sm:p-8">
         <div className="absolute -left-16 -top-16 h-48 w-48 rounded-full bg-[var(--accent-gold)]/10 blur-2xl" />
@@ -31,7 +31,7 @@ export function OwnerOverviewPage() {
 
       <OwnerStats />
 
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1.5fr)_minmax(360px,1fr)]">
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1.5fr)_minmax(360px,1fr)]">
         <SchoolOverview
           onSchoolSelect={(schoolId) =>
             navigate(`/owner/schools/${schoolId}`)

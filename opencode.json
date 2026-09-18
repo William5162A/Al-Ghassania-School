@@ -21,7 +21,32 @@
                                                                        "name":  "Qwen3.8 27B"
                                                                    }
                                                }
+                                },
+                      "apinex": {
+                            "npm": "@ai-sdk/openai-compatible",
+                            "name": "APInex",
+                            "options": {
+                                "baseURL": "https://api.apinex.bond/v1",
+                                "apiKey": "{env:APINEX_API_KEY}"
+                            },
+                            "models": {
+                                "free/claude-opus-4.6": {
+                                "name": "Claude 4.6 Opus"
+                                },
+                                "free/claude-sonnet-4.6": {
+                                "name": "Claude 4.6 Sonnet"
+                                },
+                                "free/deepseek-v4-pro-0813": {
+                                "name": "DeepSeek V4 Pro"
+                                },
+                                "deepseek-v4-pro": {
+                                "name": "DeepSeek V4 Pro"
+                                },
+                                "glm-5.3": {
+                                "name": "GLM 5.3"
                                 }
+                            }
+                            }
                  },
     "plugin":  [
                    "superpowers@git+https://github.com/obra/superpowers.git"
